@@ -1,0 +1,48 @@
+body
+{
+    margin:0;
+    height:100%;
+    width:100%;
+    background:lightgray;
+}
+
+#canvas
+{
+    margin:50px auto;
+    background:white;
+    width:512px;
+    height:512px;
+    border:1px solid gray;
+}
+
+.pixel
+{
+    float:left;
+    margin:0;
+    line-height: 0px;;
+   /* width:32px;
+    height: 32px;*/
+    background:white;
+}
+
+#button
+{
+    margin:0 auto;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    display:block;
+    width:100px;
+    height:35px;
+    background: lightblue;
+    -webkit-filter:dropshadow(0 0 3 black);
+    border:1px solid white;
+    transition: 0.3s ease;
+    
+}
+
+#button:hover
+{
+    background:darkgray;
+    cursor:pointer;
+}
